@@ -85,7 +85,6 @@ This example expects a USB cable connected from your development PC to the Type 
 				<Item Name="WPI_DigitalInputOpen.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/DigitalInput/WPI_DigitalInputOpen.vi"/>
 				<Item Name="WPI_DigitalInputDevRef.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/DigitalInput/WPI_DigitalInputDevRef.ctl"/>
 				<Item Name="WPI_DigitalModuleDIOCacheOp.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/DigitalModule/WPI_DigitalModuleDIOCacheOp.ctl"/>
-				<Item Name="WPI_DigitalModuleValidateDIOChannel.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/DigitalModule/WPI_DigitalModuleValidateDIOChannel.vi"/>
 				<Item Name="WPI_DigitalModuleDIOAllocator.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/DigitalModule/WPI_DigitalModuleDIOAllocator.vi"/>
 				<Item Name="WPI_DigitalModuleDIOCache.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/DigitalModule/WPI_DigitalModuleDIOCache.vi"/>
 				<Item Name="WPI_DigitalModuleERRInvalidDIOIdx.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/DigitalModule/WPI_DigitalModuleERRInvalidDIOIdx.vi"/>
@@ -168,6 +167,47 @@ This example expects a USB cable connected from your development PC to the Type 
 				<Item Name="WPI_SPIRefNum Registry Get.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/SPI/WPI_SPIRefNum Registry Get.vi"/>
 				<Item Name="WPI_SPIClose.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/SPI/WPI_SPIClose.vi"/>
 				<Item Name="spilib_close.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/SystemInterfaces/spilib/spilib_close.vi"/>
+				<Item Name="DIO Update Ops.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Simulation/Protocol/Devices/DIO/DIO Update Ops.ctl"/>
+				<Item Name="FPGA_SystemAsync VI Agent.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/SystemInterfaces/System/FPGA_SystemAsync VI Agent.vi"/>
+				<Item Name="FPGA_SystemAsynch VI Registration.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/SystemInterfaces/System/FPGA_SystemAsynch VI Registration.vi"/>
+				<Item Name="FPGA_SystemOpen.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/SystemInterfaces/System/FPGA_SystemOpen.vi"/>
+				<Item Name="FPGA_SystemERRWrongVersion.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/SystemInterfaces/System/FPGA_SystemERRWrongVersion.vi"/>
+				<Item Name="roboRIO_FPGA_2020_20.1.2.lvbitx" Type="Document" URL="/&lt;vilib&gt;/Rock Robotics/SystemInterfaces/roboRIO_FPGA_2020_20.1.2.lvbitx"/>
+				<Item Name="NetComm_UnloadCPPStartupProgram.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/SystemInterfaces/NetworkCommunication/NetComm_UnloadCPPStartupProgram.vi"/>
+				<Item Name="System Exec.vi" Type="VI" URL="/&lt;vilib&gt;/Platform/system.llb/System Exec.vi"/>
+				<Item Name="DIO_PanelSim_Global.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Simulation/Protocol/Devices/DIO/DIO_PanelSim_Global.vi"/>
+				<Item Name="DIO proto.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Simulation/Protocol/Devices/DIO/DIO proto.ctl"/>
+				<Item Name="DIO data proto.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Simulation/Protocol/Devices/DIO/DIO data proto.ctl"/>
+				<Item Name="SendDIOProtocol.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Simulation/Protocol/Devices/DIO/SendDIOProtocol.vi"/>
+				<Item Name="Make DIO JSON.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Simulation/Protocol/Devices/DIO/Make DIO JSON.vi"/>
+				<Item Name="Construct Delta JSON.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Simulation/Protocol/Construct Delta JSON.vi"/>
+				<Item Name="Multi Error Cluster.lvlib" Type="Library" URL="/&lt;vilib&gt;/MultiError/TokenizeJSON/Multi Error Cluster.lvlib"/>
+				<Item Name="Get Checked Elements.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Simulation/Protocol/Get Checked Elements.vi"/>
+				<Item Name="Update WebSocket Clients.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Simulation/Protocol/Update WebSocket Clients.vi"/>
+				<Item Name="Store Websocket Refs.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Simulation/Protocol/Store Websocket Refs.vi"/>
+				<Item Name="WebSockets.lvlib" Type="Library" URL="/&lt;vilib&gt;/MediaMongrels Ltd/WebSockets/WebSockets/WebSockets.lvlib"/>
+				<Item Name="JSON Delta DIO Update.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Simulation/Protocol/Devices/DIO/JSON Delta DIO Update.vi"/>
+				<Item Name="Delta JSON Update.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Simulation/Protocol/Delta JSON Update.vi"/>
+				<Item Name="Get Named Sorted Elements.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Simulation/Protocol/Get Named Sorted Elements.vi"/>
+				<Item Name="JSON Sorter.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Simulation/Protocol/JSON Sorter.vi"/>
+				<Item Name="JSON Object Deltas.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Simulation/Protocol/JSON Object Deltas.vi"/>
+				<Item Name="Get Object Names.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Simulation/Protocol/Get Object Names.vi"/>
+				<Item Name="Make DeltaJSON Subs.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Simulation/Protocol/Make DeltaJSON Subs.vi"/>
+				<Item Name="FPGA_DIOReadOutputEnable.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/SystemInterfaces/DIO/FPGA_DIOReadOutputEnable.vi"/>
+				<Item Name="FPGA_DIOWriteOutputEnable.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/SystemInterfaces/DIO/FPGA_DIOWriteOutputEnable.vi"/>
+				<Item Name="FPGA_DIOWritePWMPeriod.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/SystemInterfaces/DIO/FPGA_DIOWritePWMPeriod.vi"/>
+				<Item Name="FPGA_DIOWritePWMMinHigh.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/SystemInterfaces/DIO/FPGA_DIOWritePWMMinHigh.vi"/>
+				<Item Name="FPGA_DIOWritePWMValue.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/SystemInterfaces/DIO/FPGA_DIOWritePWMValue.vi"/>
+				<Item Name="FPGA_DIOERRInvalidPWMChannel.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/SystemInterfaces/DIO/FPGA_DIOERRInvalidPWMChannel.vi"/>
+				<Item Name="FPGA_DIOWritePWMPeriodScale.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/SystemInterfaces/DIO/FPGA_DIOWritePWMPeriodScale.vi"/>
+				<Item Name="WPI_PWMPeriodMultiplier.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/PWM/WPI_PWMPeriodMultiplier.ctl"/>
+				<Item Name="FPGA_DIOWriteSlowValueRelayFwd.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/SystemInterfaces/DIO/FPGA_DIOWriteSlowValueRelayFwd.vi"/>
+				<Item Name="FPGA_DIOWriteSlowValueRelayRev.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/SystemInterfaces/DIO/FPGA_DIOWriteSlowValueRelayRev.vi"/>
+				<Item Name="WPI_DefaultPWMConstants.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/PWM/WPI_DefaultPWMConstants.vi"/>
+				<Item Name="WPI_UtilitiesTimebaseConstants.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Utilities/WPI_UtilitiesTimebaseConstants.vi"/>
+				<Item Name="FPGA_DIOReadLoopTiming.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/SystemInterfaces/DIO/FPGA_DIOReadLoopTiming.vi"/>
+				<Item Name="Sockets.lvlib" Type="Library" URL="/&lt;vilib&gt;/MediaMongrels Ltd/WebSockets/Sockets/Sockets.lvlib"/>
+				<Item Name="Trajectory_Library.lvlib" Type="Library" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/JAS_Junk/TrajLib/Trajectory_Library.lvlib"/>
 			</Item>
 			<Item Name="NiFpgaLv.dll" Type="Document" URL="NiFpgaLv.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
@@ -180,6 +220,7 @@ This example expects a USB cable connected from your development PC to the Type 
 		<Item Name="Build Specifications" Type="Build">
 			<Property Name="GIT_FILE" Type="Bool">false</Property>
 			<Item Name="ADIS16470 IMU" Type="Source Distribution">
+				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
 				<Property Name="Bld_buildCacheID" Type="Str">{BBA0484B-CA77-4464-A2BB-E8E179FEADC6}</Property>
 				<Property Name="Bld_buildSpecName" Type="Str">ADIS16470 IMU</Property>
 				<Property Name="Bld_excludedDirectory[0]" Type="Path">vi.lib</Property>
@@ -196,8 +237,9 @@ This example expects a USB cable connected from your development PC to the Type 
 				<Property Name="Bld_localDestDir" Type="Path">../builds/ADIS16470-IMU/ThirdParty</Property>
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToProject</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{5C9CA66C-F16B-4A3B-95C3-90689364D2FE}</Property>
-				<Property Name="Bld_version.major" Type="Int">2020</Property>
-				<Property Name="Bld_version.minor" Type="Int">2</Property>
+				<Property Name="Bld_version.build" Type="Int">3</Property>
+				<Property Name="Bld_version.major" Type="Int">2022</Property>
+				<Property Name="Bld_version.minor" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Destination Directory</Property>
 				<Property Name="Destination[0].path" Type="Path">../builds/ADIS16470-IMU/ThirdParty</Property>
 				<Property Name="Destination[0].path.type" Type="Str">relativeToProject</Property>
@@ -213,7 +255,7 @@ This example expects a USB cable connected from your development PC to the Type 
 				<Property Name="Destination[3].path" Type="Path">../builds/ADIS16470-IMU/ThirdParty/ADI/ADIS16470/SubVI</Property>
 				<Property Name="Destination[3].path.type" Type="Str">relativeToProject</Property>
 				<Property Name="DestinationCount" Type="Int">4</Property>
-				<Property Name="Source[0].itemID" Type="Str">{E49C4898-C418-4684-95B8-9845B53AAD6B}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{69AF528A-FB4B-41FC-8B82-718F2B245323}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].Container.applyDestination" Type="Bool">true</Property>
 				<Property Name="Source[1].Container.applyInclusion" Type="Bool">true</Property>
@@ -238,7 +280,7 @@ This example expects a USB cable connected from your development PC to the Type 
 				<Property Name="Source[3].type" Type="Str">Container</Property>
 				<Property Name="SourceCount" Type="Int">4</Property>
 			</Item>
-			<Item Name="ADIS16470 IMU Package" Type="{E661DAE2-7517-431F-AC41-30807A3BDA38}">
+			<Item Name="ADIS16470 IMU Package LV 2019" Type="{E661DAE2-7517-431F-AC41-30807A3BDA38}">
 				<Property Name="NIPKG_addToFeed" Type="Bool">false</Property>
 				<Property Name="NIPKG_certificates" Type="Bool">false</Property>
 				<Property Name="NIPKG_createInstaller" Type="Bool">false</Property>
@@ -246,7 +288,7 @@ This example expects a USB cable connected from your development PC to the Type 
 				<Property Name="NIPKG_installerArtifacts" Type="Str"></Property>
 				<Property Name="NIPKG_installerBuiltBefore" Type="Bool">false</Property>
 				<Property Name="NIPKG_installerDestination" Type="Path"></Property>
-				<Property Name="NIPKG_lastBuiltPackage" Type="Str">adis16470-imu_2020.2.0-0_windows_all.nipkg</Property>
+				<Property Name="NIPKG_lastBuiltPackage" Type="Str">adis16470-imu-lv-2019_2022.1.0-2_windows_all.nipkg</Property>
 				<Property Name="NIPKG_license" Type="Ref"></Property>
 				<Property Name="NIPKG_releaseNotes" Type="Str"></Property>
 				<Property Name="NIPKG_storeProduct" Type="Bool">false</Property>
@@ -254,8 +296,8 @@ This example expects a USB cable connected from your development PC to the Type 
 				<Property Name="PKG_actions.Count" Type="Int">0</Property>
 				<Property Name="PKG_autoIncrementBuild" Type="Bool">true</Property>
 				<Property Name="PKG_autoSelectDeps" Type="Bool">false</Property>
-				<Property Name="PKG_buildNumber" Type="Int">1</Property>
-				<Property Name="PKG_buildSpecName" Type="Str">ADIS16470 IMU Package</Property>
+				<Property Name="PKG_buildNumber" Type="Int">3</Property>
+				<Property Name="PKG_buildSpecName" Type="Str">ADIS16470 IMU Package LV 2019</Property>
 				<Property Name="PKG_dependencies.Count" Type="Int">0</Property>
 				<Property Name="PKG_description" Type="Str"></Property>
 				<Property Name="PKG_destinations.Count" Type="Int">6</Property>
@@ -287,13 +329,13 @@ This example expects a USB cable connected from your development PC to the Type 
 				<Property Name="PKG_displayVersion" Type="Str"></Property>
 				<Property Name="PKG_feedDescription" Type="Str"></Property>
 				<Property Name="PKG_feedName" Type="Str"></Property>
-				<Property Name="PKG_homepage" Type="Str">https://www.analog.com/first</Property>
+				<Property Name="PKG_homepage" Type="Str">https://github.com/jsimpso81/ADIS16470-RoboRIO-Driver</Property>
 				<Property Name="PKG_hostname" Type="Str"></Property>
 				<Property Name="PKG_lvrteTracking" Type="Bool">false</Property>
-				<Property Name="PKG_maintainer" Type="Str">Juan Chong &lt;juan.chong@analog.com&gt;</Property>
+				<Property Name="PKG_maintainer" Type="Str">J. A. Simpson &lt;&gt;</Property>
 				<Property Name="PKG_output" Type="Path">../builds/ADIS16470-Package</Property>
 				<Property Name="PKG_output.Type" Type="Str">relativeToProject</Property>
-				<Property Name="PKG_packageName" Type="Str">adis16470-imu</Property>
+				<Property Name="PKG_packageName" Type="Str">adis16470-imu-lv-2019</Property>
 				<Property Name="PKG_ProviderVersion" Type="Int">1810</Property>
 				<Property Name="PKG_publishToSystemLink" Type="Bool">false</Property>
 				<Property Name="PKG_section" Type="Str">Drivers</Property>
@@ -303,7 +345,74 @@ This example expects a USB cable connected from your development PC to the Type 
 				<Property Name="PKG_sources[0].ID" Type="Ref">/My Computer/Build Specifications/ADIS16470 IMU</Property>
 				<Property Name="PKG_sources[0].Type" Type="Str">Build</Property>
 				<Property Name="PKG_synopsis" Type="Str">ADIS16470 IMU Library for FIRST Robotics and the RoboRIO Built Around WPILib</Property>
-				<Property Name="PKG_version" Type="Str">2020.2.0</Property>
+				<Property Name="PKG_version" Type="Str">2022.1.0</Property>
+			</Item>
+			<Item Name="ADIS16470 IMU Package LV 2020" Type="{E661DAE2-7517-431F-AC41-30807A3BDA38}">
+				<Property Name="NIPKG_addToFeed" Type="Bool">false</Property>
+				<Property Name="NIPKG_certificates" Type="Bool">false</Property>
+				<Property Name="NIPKG_createInstaller" Type="Bool">false</Property>
+				<Property Name="NIPKG_feedLocation" Type="Path"></Property>
+				<Property Name="NIPKG_installerArtifacts" Type="Str"></Property>
+				<Property Name="NIPKG_installerBuiltBefore" Type="Bool">false</Property>
+				<Property Name="NIPKG_installerDestination" Type="Path"></Property>
+				<Property Name="NIPKG_lastBuiltPackage" Type="Str">adis16470-imu-lv-2020_2022.1.0-2_windows_all.nipkg</Property>
+				<Property Name="NIPKG_license" Type="Ref"></Property>
+				<Property Name="NIPKG_releaseNotes" Type="Str"></Property>
+				<Property Name="NIPKG_storeProduct" Type="Bool">false</Property>
+				<Property Name="NIPKG_VisibleForRuntimeDeployment" Type="Bool">false</Property>
+				<Property Name="PKG_actions.Count" Type="Int">0</Property>
+				<Property Name="PKG_autoIncrementBuild" Type="Bool">true</Property>
+				<Property Name="PKG_autoSelectDeps" Type="Bool">false</Property>
+				<Property Name="PKG_buildNumber" Type="Int">3</Property>
+				<Property Name="PKG_buildSpecName" Type="Str">ADIS16470 IMU Package LV 2020</Property>
+				<Property Name="PKG_dependencies.Count" Type="Int">0</Property>
+				<Property Name="PKG_description" Type="Str"></Property>
+				<Property Name="PKG_destinations.Count" Type="Int">6</Property>
+				<Property Name="PKG_destinations[0].ID" Type="Str">{0D16C5CB-605A-4470-A947-4A28049FD849}</Property>
+				<Property Name="PKG_destinations[0].Subdir.Directory" Type="Str">WPI</Property>
+				<Property Name="PKG_destinations[0].Subdir.Parent" Type="Str">{993A511C-DD62-43E1-B0B8-56ED54A09AAA}</Property>
+				<Property Name="PKG_destinations[0].Type" Type="Str">Subdir</Property>
+				<Property Name="PKG_destinations[1].ID" Type="Str">{4B547384-4E27-4757-8BAE-C2FF556D853D}</Property>
+				<Property Name="PKG_destinations[1].Subdir.Directory" Type="Str">ThirdParty</Property>
+				<Property Name="PKG_destinations[1].Subdir.Parent" Type="Str">{0D16C5CB-605A-4470-A947-4A28049FD849}</Property>
+				<Property Name="PKG_destinations[1].Type" Type="Str">Subdir</Property>
+				<Property Name="PKG_destinations[2].ID" Type="Str">{67262A74-41D9-4483-A988-34439B1DBEB5}</Property>
+				<Property Name="PKG_destinations[2].Subdir.Directory" Type="Str">vi.lib</Property>
+				<Property Name="PKG_destinations[2].Subdir.Parent" Type="Str">{A71B9C60-64A5-442B-80DF-0CB778A2E545}</Property>
+				<Property Name="PKG_destinations[2].Type" Type="Str">Subdir</Property>
+				<Property Name="PKG_destinations[3].ID" Type="Str">{993A511C-DD62-43E1-B0B8-56ED54A09AAA}</Property>
+				<Property Name="PKG_destinations[3].Subdir.Directory" Type="Str">Rock Robotics</Property>
+				<Property Name="PKG_destinations[3].Subdir.Parent" Type="Str">{67262A74-41D9-4483-A988-34439B1DBEB5}</Property>
+				<Property Name="PKG_destinations[3].Type" Type="Str">Subdir</Property>
+				<Property Name="PKG_destinations[4].ID" Type="Str">{A71B9C60-64A5-442B-80DF-0CB778A2E545}</Property>
+				<Property Name="PKG_destinations[4].Subdir.Directory" Type="Str">LabVIEW 2020</Property>
+				<Property Name="PKG_destinations[4].Subdir.Parent" Type="Str">{CF9EFC3D-1C66-412E-836F-5962846B7FAF}</Property>
+				<Property Name="PKG_destinations[4].Type" Type="Str">Subdir</Property>
+				<Property Name="PKG_destinations[5].ID" Type="Str">{CF9EFC3D-1C66-412E-836F-5962846B7FAF}</Property>
+				<Property Name="PKG_destinations[5].Subdir.Directory" Type="Str">National Instruments</Property>
+				<Property Name="PKG_destinations[5].Subdir.Parent" Type="Str">root_5</Property>
+				<Property Name="PKG_destinations[5].Type" Type="Str">Subdir</Property>
+				<Property Name="PKG_displayName" Type="Str">ADIS16470 IMU RoboRIO Driver</Property>
+				<Property Name="PKG_displayVersion" Type="Str"></Property>
+				<Property Name="PKG_feedDescription" Type="Str"></Property>
+				<Property Name="PKG_feedName" Type="Str"></Property>
+				<Property Name="PKG_homepage" Type="Str">https://github.com/jsimpso81/ADIS16470-RoboRIO-Driver</Property>
+				<Property Name="PKG_hostname" Type="Str"></Property>
+				<Property Name="PKG_lvrteTracking" Type="Bool">false</Property>
+				<Property Name="PKG_maintainer" Type="Str">J. A. Simpson &lt;&gt;</Property>
+				<Property Name="PKG_output" Type="Path">../builds/ADIS16470-Package</Property>
+				<Property Name="PKG_output.Type" Type="Str">relativeToProject</Property>
+				<Property Name="PKG_packageName" Type="Str">adis16470-imu-lv-2020</Property>
+				<Property Name="PKG_ProviderVersion" Type="Int">1810</Property>
+				<Property Name="PKG_publishToSystemLink" Type="Bool">false</Property>
+				<Property Name="PKG_section" Type="Str">Drivers</Property>
+				<Property Name="PKG_shortcuts.Count" Type="Int">0</Property>
+				<Property Name="PKG_sources.Count" Type="Int">1</Property>
+				<Property Name="PKG_sources[0].Destination" Type="Str">{4B547384-4E27-4757-8BAE-C2FF556D853D}</Property>
+				<Property Name="PKG_sources[0].ID" Type="Ref">/My Computer/Build Specifications/ADIS16470 IMU</Property>
+				<Property Name="PKG_sources[0].Type" Type="Str">Build</Property>
+				<Property Name="PKG_synopsis" Type="Str">ADIS16470 IMU Library for FIRST Robotics and the RoboRIO Built Around WPILib</Property>
+				<Property Name="PKG_version" Type="Str">2022.1.0</Property>
 			</Item>
 		</Item>
 	</Item>
@@ -393,6 +502,10 @@ AddOutputFilter chunkFilter
 				<Item Name="Acquire Semaphore.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/Acquire Semaphore.vi"/>
 				<Item Name="AddNamedSemaphorePrefix.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/AddNamedSemaphorePrefix.vi"/>
 				<Item Name="Clear Errors.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Clear Errors.vi"/>
+				<Item Name="DIO data proto.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Simulation/Protocol/Devices/DIO/DIO data proto.ctl"/>
+				<Item Name="DIO proto.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Simulation/Protocol/Devices/DIO/DIO proto.ctl"/>
+				<Item Name="DIO Update Ops.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Simulation/Protocol/Devices/DIO/DIO Update Ops.ctl"/>
+				<Item Name="DIO_PanelSim_Global.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Simulation/Protocol/Devices/DIO/DIO_PanelSim_Global.vi"/>
 				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Cluster From Error Code.vi"/>
 				<Item Name="FPGA_AnalogTriggerDevRef.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/SystemInterfaces/AnalogTrigger/FPGA_AnalogTriggerDevRef.ctl"/>
 				<Item Name="FPGA_AnalogTriggerIndex.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/SystemInterfaces/AnalogTrigger/FPGA_AnalogTriggerIndex.ctl"/>
@@ -485,7 +598,6 @@ AddOutputFilter chunkFilter
 				<Item Name="WPI_DigitalModuleERRSetOnUnallocatedDIO.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/DigitalModule/WPI_DigitalModuleERRSetOnUnallocatedDIO.vi"/>
 				<Item Name="WPI_DigitalModuleOpen.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/DigitalModule/WPI_DigitalModuleOpen.vi"/>
 				<Item Name="WPI_DigitalModuleSetDIO.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/DigitalModule/WPI_DigitalModuleSetDIO.vi"/>
-				<Item Name="WPI_DigitalModuleValidateDIOChannel.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/DigitalModule/WPI_DigitalModuleValidateDIOChannel.vi"/>
 				<Item Name="WPI_DigitalOutputClose.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/DigitalOutput/WPI_DigitalOutputClose.vi"/>
 				<Item Name="WPI_DigitalOutputDevRef.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/DigitalOutput/WPI_DigitalOutputDevRef.ctl"/>
 				<Item Name="WPI_DigitalOutputOpen.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/DigitalOutput/WPI_DigitalOutputOpen.vi"/>
@@ -532,6 +644,9 @@ AddOutputFilter chunkFilter
 			<Item Name="ADIS16470 Device Reference.ctl" Type="VI" URL="../ADIS16470Lib/Typedef/ADIS16470 Device Reference.ctl"/>
 			<Item Name="ADIS16470 Encode Address.vi" Type="VI" URL="../ADIS16470Lib/SubVI/ADIS16470 Encode Address.vi"/>
 			<Item Name="ADIS16470 Hardware Configuration.ctl" Type="VI" URL="../ADIS16470Lib/Typedef/ADIS16470 Hardware Configuration.ctl"/>
+			<Item Name="ADIS16470 Loop Data.ctl" Type="VI" URL="../ADIS16470Lib/Typedef/ADIS16470 Loop Data.ctl"/>
+			<Item Name="ADIS16470 Loop State.ctl" Type="VI" URL="../ADIS16470Lib/Typedef/ADIS16470 Loop State.ctl"/>
+			<Item Name="ADIS16470 Loop Write Config.vi" Type="VI" URL="../ADIS16470Lib/SubVI/ADIS16470 Loop Write Config.vi"/>
 			<Item Name="ADIS16470 Loop.vi" Type="VI" URL="../ADIS16470Lib/SubVI/ADIS16470 Loop.vi"/>
 			<Item Name="ADIS16470 Open.vi" Type="VI" URL="../ADIS16470Lib/SubVI/ADIS16470 Open.vi"/>
 			<Item Name="ADIS16470 Process.ctl" Type="VI" URL="../ADIS16470Lib/Typedef/ADIS16470 Process.ctl"/>
@@ -541,6 +656,7 @@ AddOutputFilter chunkFilter
 			<Item Name="ADIS16470 Recalibrate.vi" Type="VI" URL="../ADIS16470Lib/SubVI/ADIS16470 Recalibrate.vi"/>
 			<Item Name="ADIS16470 RefNum Registry Get.vi" Type="VI" URL="../ADIS16470Lib/SubVI/ADIS16470 RefNum Registry Get.vi"/>
 			<Item Name="ADIS16470 RefNum Registry Set.vi" Type="VI" URL="../ADIS16470Lib/SubVI/ADIS16470 RefNum Registry Set.vi"/>
+			<Item Name="ADIS16470 Register Read Info.ctl" Type="VI" URL="../ADIS16470Lib/Typedef/ADIS16470 Register Read Info.ctl"/>
 			<Item Name="ADIS16470 Register.ctl" Type="VI" URL="../ADIS16470Lib/Typedef/ADIS16470 Register.ctl"/>
 			<Item Name="ADIS16470 Reset.vi" Type="VI" URL="../ADIS16470Lib/SubVI/ADIS16470 Reset.vi"/>
 			<Item Name="ADIS16470 Scale Data.vi" Type="VI" URL="../ADIS16470Lib/SubVI/ADIS16470 Scale Data.vi"/>
