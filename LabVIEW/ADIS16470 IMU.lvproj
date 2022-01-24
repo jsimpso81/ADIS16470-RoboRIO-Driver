@@ -237,7 +237,7 @@ This example expects a USB cable connected from your development PC to the Type 
 				<Property Name="Bld_localDestDir" Type="Path">../builds/ADIS16470-IMU/ThirdParty</Property>
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToProject</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{5C9CA66C-F16B-4A3B-95C3-90689364D2FE}</Property>
-				<Property Name="Bld_version.build" Type="Int">3</Property>
+				<Property Name="Bld_version.build" Type="Int">13</Property>
 				<Property Name="Bld_version.major" Type="Int">2022</Property>
 				<Property Name="Bld_version.minor" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Destination Directory</Property>
@@ -288,7 +288,7 @@ This example expects a USB cable connected from your development PC to the Type 
 				<Property Name="NIPKG_installerArtifacts" Type="Str"></Property>
 				<Property Name="NIPKG_installerBuiltBefore" Type="Bool">false</Property>
 				<Property Name="NIPKG_installerDestination" Type="Path"></Property>
-				<Property Name="NIPKG_lastBuiltPackage" Type="Str">adis16470-imu-lv-2019_2022.1.0-2_windows_all.nipkg</Property>
+				<Property Name="NIPKG_lastBuiltPackage" Type="Str">adis16470-imu-lv-2019_2022.1.0-12_windows_all.nipkg</Property>
 				<Property Name="NIPKG_license" Type="Ref"></Property>
 				<Property Name="NIPKG_releaseNotes" Type="Str"></Property>
 				<Property Name="NIPKG_storeProduct" Type="Bool">false</Property>
@@ -296,7 +296,7 @@ This example expects a USB cable connected from your development PC to the Type 
 				<Property Name="PKG_actions.Count" Type="Int">0</Property>
 				<Property Name="PKG_autoIncrementBuild" Type="Bool">true</Property>
 				<Property Name="PKG_autoSelectDeps" Type="Bool">false</Property>
-				<Property Name="PKG_buildNumber" Type="Int">3</Property>
+				<Property Name="PKG_buildNumber" Type="Int">13</Property>
 				<Property Name="PKG_buildSpecName" Type="Str">ADIS16470 IMU Package LV 2019</Property>
 				<Property Name="PKG_dependencies.Count" Type="Int">0</Property>
 				<Property Name="PKG_description" Type="Str"></Property>
@@ -355,7 +355,7 @@ This example expects a USB cable connected from your development PC to the Type 
 				<Property Name="NIPKG_installerArtifacts" Type="Str"></Property>
 				<Property Name="NIPKG_installerBuiltBefore" Type="Bool">false</Property>
 				<Property Name="NIPKG_installerDestination" Type="Path"></Property>
-				<Property Name="NIPKG_lastBuiltPackage" Type="Str">adis16470-imu-lv-2020_2022.1.0-2_windows_all.nipkg</Property>
+				<Property Name="NIPKG_lastBuiltPackage" Type="Str">adis16470-imu-lv-2020_2022.1.0-12_windows_all.nipkg</Property>
 				<Property Name="NIPKG_license" Type="Ref"></Property>
 				<Property Name="NIPKG_releaseNotes" Type="Str"></Property>
 				<Property Name="NIPKG_storeProduct" Type="Bool">false</Property>
@@ -363,7 +363,7 @@ This example expects a USB cable connected from your development PC to the Type 
 				<Property Name="PKG_actions.Count" Type="Int">0</Property>
 				<Property Name="PKG_autoIncrementBuild" Type="Bool">true</Property>
 				<Property Name="PKG_autoSelectDeps" Type="Bool">false</Property>
-				<Property Name="PKG_buildNumber" Type="Int">3</Property>
+				<Property Name="PKG_buildNumber" Type="Int">13</Property>
 				<Property Name="PKG_buildSpecName" Type="Str">ADIS16470 IMU Package LV 2020</Property>
 				<Property Name="PKG_dependencies.Count" Type="Int">0</Property>
 				<Property Name="PKG_description" Type="Str"></Property>
@@ -579,6 +579,7 @@ AddOutputFilter chunkFilter
 				<Item Name="System Exec.vi" Type="VI" URL="/&lt;vilib&gt;/Platform/system.llb/System Exec.vi"/>
 				<Item Name="TraceTool Start Trace.vi" Type="VI" URL="/&lt;vilib&gt;/tracetool.llb/TraceTool Start Trace.vi"/>
 				<Item Name="TraceTool Stop Trace And Send.vi" Type="VI" URL="/&lt;vilib&gt;/tracetool.llb/TraceTool Stop Trace And Send.vi"/>
+				<Item Name="Trajectory_Library.lvlib" Type="Library" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/JAS_Junk/TrajLib/Trajectory_Library.lvlib"/>
 				<Item Name="Trim Whitespace.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Trim Whitespace.vi"/>
 				<Item Name="Validate Semaphore Size.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/Validate Semaphore Size.vi"/>
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
@@ -643,6 +644,7 @@ AddOutputFilter chunkFilter
 			<Item Name="ADIS16470 Data.ctl" Type="VI" URL="../ADIS16470Lib/Typedef/ADIS16470 Data.ctl"/>
 			<Item Name="ADIS16470 Device Reference.ctl" Type="VI" URL="../ADIS16470Lib/Typedef/ADIS16470 Device Reference.ctl"/>
 			<Item Name="ADIS16470 Encode Address.vi" Type="VI" URL="../ADIS16470Lib/SubVI/ADIS16470 Encode Address.vi"/>
+			<Item Name="ADIS16470 Globals.vi" Type="VI" URL="../ADIS16470Lib/SubVI/ADIS16470 Globals.vi"/>
 			<Item Name="ADIS16470 Hardware Configuration.ctl" Type="VI" URL="../ADIS16470Lib/Typedef/ADIS16470 Hardware Configuration.ctl"/>
 			<Item Name="ADIS16470 Loop Data.ctl" Type="VI" URL="../ADIS16470Lib/Typedef/ADIS16470 Loop Data.ctl"/>
 			<Item Name="ADIS16470 Loop State.ctl" Type="VI" URL="../ADIS16470Lib/Typedef/ADIS16470 Loop State.ctl"/>
@@ -650,8 +652,10 @@ AddOutputFilter chunkFilter
 			<Item Name="ADIS16470 Loop.vi" Type="VI" URL="../ADIS16470Lib/SubVI/ADIS16470 Loop.vi"/>
 			<Item Name="ADIS16470 Open.vi" Type="VI" URL="../ADIS16470Lib/SubVI/ADIS16470 Open.vi"/>
 			<Item Name="ADIS16470 Process.ctl" Type="VI" URL="../ADIS16470Lib/Typedef/ADIS16470 Process.ctl"/>
+			<Item Name="ADIS16470 Read Diag Stat.vi" Type="VI" URL="../ADIS16470Lib/SubVI/ADIS16470 Read Diag Stat.vi"/>
 			<Item Name="ADIS16470 Read Multiple Registers.vi" Type="VI" URL="../ADIS16470Lib/SubVI/ADIS16470 Read Multiple Registers.vi"/>
 			<Item Name="ADIS16470 Read Register.vi" Type="VI" URL="../ADIS16470Lib/SubVI/ADIS16470 Read Register.vi"/>
+			<Item Name="ADIS16470 Read Temp.vi" Type="VI" URL="../ADIS16470Lib/SubVI/ADIS16470 Read Temp.vi"/>
 			<Item Name="ADIS16470 Read.vi" Type="VI" URL="../ADIS16470Lib/SubVI/ADIS16470 Read.vi"/>
 			<Item Name="ADIS16470 Recalibrate.vi" Type="VI" URL="../ADIS16470Lib/SubVI/ADIS16470 Recalibrate.vi"/>
 			<Item Name="ADIS16470 RefNum Registry Get.vi" Type="VI" URL="../ADIS16470Lib/SubVI/ADIS16470 RefNum Registry Get.vi"/>
@@ -659,6 +663,7 @@ AddOutputFilter chunkFilter
 			<Item Name="ADIS16470 Register Read Info.ctl" Type="VI" URL="../ADIS16470Lib/Typedef/ADIS16470 Register Read Info.ctl"/>
 			<Item Name="ADIS16470 Register.ctl" Type="VI" URL="../ADIS16470Lib/Typedef/ADIS16470 Register.ctl"/>
 			<Item Name="ADIS16470 Reset.vi" Type="VI" URL="../ADIS16470Lib/SubVI/ADIS16470 Reset.vi"/>
+			<Item Name="ADIS16470 Scale Data Register.vi" Type="VI" URL="../ADIS16470Lib/SubVI/ADIS16470 Scale Data Register.vi"/>
 			<Item Name="ADIS16470 Scale Data.vi" Type="VI" URL="../ADIS16470Lib/SubVI/ADIS16470 Scale Data.vi"/>
 			<Item Name="ADIS16470 Status.ctl" Type="VI" URL="../ADIS16470Lib/Typedef/ADIS16470 Status.ctl"/>
 			<Item Name="ADIS16470 Status.vi" Type="VI" URL="../ADIS16470Lib/SubVI/ADIS16470 Status.vi"/>
