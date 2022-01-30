@@ -1,6 +1,8 @@
 # ADIS16470 IMU Interface Libraries for FIRST Robotics
 
-## WARNING: This repository has been deprecated and will no longer be updated!
+
+### NOTE: This is copy of the main repository with an updated LabVIEW driver to work around the FRC 2022 Auto SPI issue and include a build package for LabVIEW 2020
+
 
 ## Introduction
 These libraries allow mentors, students, and engineers to quickly get started using the ADIS16470 Inertial Measurement Unit (IMU). This compact module provides teams with a high-performance, six-degree-of-freedom (DoF), calibrated, feedback for their FRC robots. The module packages several gyroscopes and accelerometers in a tiny, robust package, perfect for high-performance robotics (such as FRC). 
@@ -25,42 +27,25 @@ The IMU driver currently supports all three official FRC languages (C++, Java, a
 
 #### C++ and Java Users (Online Install): 
 
-You can use the online method to install the latest C++ and Java API if your development machine can be connected to the internet:
-
-1. Open your robot project in WPILib VSCode
-2. Click on the WPI icon in the corner to open the WPI Command Pallet
-3. Select **Manage vendor libraries**
-4. Select **Install new library (online)**
-5. Enter the installation URL listed below and press ENTER
-
-http://maven.highcurrent.io/vendordeps/ADIS16470.json
-
-6. Be sure to check out the example repository if you have questions about the installation
-
-https://github.com/juchong/ADIS16470-RoboRIO-Driver-Examples
+The C++ and Java drivers have been removed from this library.  This respository only contains the LabVIEW driver with the Auto SPI problem work around.
    
 #### C++ and Java Users (Offline Install): 
-An offline installation option is available for users whose machines do not have acces to the internet:
 
-1. Open your robot project in WPILib VSCode
-2. Click on the WPI icon in the corner to open the WPI Command Pallet
-3. Select **Manage vendor libraries** 
-4. Select **Install new library (offline)**
-5. Enter the path to the latest .zip file downloaded from the releases page of this repository [link](https://github.com/juchong/ADIS16470-RoboRIO-Driver/releases)
+The C++ and Java drivers have been removed from this library.  This respository only contains the LabVIEW driver with the Auto SPI problem work around.
 
 #### LabVIEW Users:
 
 LabVIEW libraries should be installed using the NI Package Manager. Check out the releases page for the latest package installer.
 
-https://github.com/juchong/ADIS16470-RoboRIO-Driver/releases
+https://github.com/jsimpso81/ADIS16470-RoboRIO-Driver/releases
 
 Additional LabVIEW instructions and API details can be found in the LabVIEW subdirectory in this repository. 
 
-https://github.com/juchong/ADIS16470-RoboRIO-Driver/tree/master/LabVIEW
+https://github.com/jsimpso81/ADIS16470-RoboRIO-Driver/tree/master/LabVIEW
 
 ## Is the API documented?
 
-Yes, it is! The C++ Doxygen is located [here](https://juchong.github.io/ADIS16470-RoboRIO-Driver/index.html). The Java version is coming soon!
+Yes, The VIs have Ctrl-H documentation.
 
 ## Can I order my own PCB? Where can I find details about the circuit board?
 
@@ -75,5 +60,5 @@ Plug in the expansion board as shown below. **Be careful not to offset the conne
 
 **Your RoboRIO should be imaged to match the version of the NI Update Suite installed on your PC.** For example, if you have the latest (of this writing) update suite installed (2020.0.0), then you must also have the **FRC_roboRIO_2020_v10** image and **roboRIO_6.0.0f1** firmware installed. This driver relies heavily on the FPGA image loaded in the RoboRIO and _**will not work**_ on older versions. The most current NI Update Suite can be found [here](https://www.ni.com/en-us/support/downloads/drivers/download.frc-game-tools.html#333285).
 
-![ADIS16470 Breakout Board Installed on a RoboRIO](https://raw.githubusercontent.com/juchong/ADIS16470-RoboRIO-Driver/master/images/RioSensorBoard.jpg)
+![ADIS16470 Breakout Board Installed on a RoboRIO](https://raw.githubusercontent.com/jsimpso81/ADIS16470-RoboRIO-Driver/master/images/RioSensorBoard.jpg)
 
